@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: university-portal
-          image: YOUR_DOCKERHUB_USERNAME/university-portal:v1
+          image: sarves816/university-portal:v1
           ports:
             - containerPort: 80
           readinessProbe:
